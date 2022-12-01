@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #101311fc;
+  text-align: left;
+  padding: 8px;
+}
+
+tr {background-color: #c30b85}
+
+
+</style>
+</head>
+<body>
+
+<h2>Ch 5: Programming Algorithms and Software Testing</h2>
+<table>
+
+<li><h3>Phases of computer program development </h3>
+<table border ="1">
+<tr>
+    <td> Phase 1: Understand the problem </td>
+    <td> Phase 2: Design an algorithm to solve the problem</td>
+    <td> Phase 3: Write the program code</td>
+    <td>Phase 4: Enter the program and save</td>
+    <td>Phase 5: Execute the program</td>
+    <td>Phase 6: Test the program, find errors and debug, then retest</td>
+</table>
+</li>
+
+<li><h3>Programming Structures: </h3>
+<table border ="1">
+<tr>
+    <td>Sequential structure:</td>
+    <td> Top-down execution </td>
+</tr>
+<tr>
+  <td>Decision structures:</td>
+    <td>if/then/else</td>
+</tr>
+<tr>
+    <td>Iterative (Looping): </td>
+     <ul>
+    <td>
+    <li>while loop: continue looping as long something is true</li>
+    <li>repeat/until loop: continue looping until something is true</li>
+    <li>for loop: loop a given number of times</li>
+    </td>
+</ul>
+</tr>
+<tr>
+    <td> Recursive structures: </td>
+    <ul>
+    <td>
+    <li>Repeat a set of instructions as a substask of itself</li>
+    <li>Repetition continues until: degenerative case, which is a termination condition, is met (degenerative case is also called a "base case")</li>
+    </td>
+</ul>
+</tr>
+<tr>
+    <td> Two classic programming/database problems </td>
+    <ul>
+    <td>
+    <li><h5>Sorting: Descending order/Ascending order</h5></li>
+        <ol>    Sorting numbers </ol>
+        <ol>    Sorting strings (in accordance with ASCII values) </ol>
+    <li><h5>Searching: find specific data that meet a certain criteria</h5></li>
+        <ol>In database:</ol>
+        <ol>Filters: temporary search</ol>
+        <ol>Queries: search criteria are saved so they don't have to be recreated</ol>
+    <li><h5>Two popular search techniques:</h5></li>
+        <li>Sequential search: search from top to bottom or bottom to top, one item at a time</li>
+        <li>Binary search: only works if data is SORTED first (start in the middle, then go to half of that, etc.)</li>
+    </td>
+    </ul>
+</tr>
+</table>
+</li>
+
+<li><h3>Two classic programming/database problems </h3>
+<table border ="1">
+<tr>
+    <td>Efficiency: Program takes minimal time and/or resources </td>
+</tr>
+<tr>
+    <td> Correctness: Program runs in expected ways and works for all expected conditions </td>
+</tr>
+</table>
+</li>
+
+<li><h3>Software Testing and Verification </h3>
+<table border ="1">
+<tr>
+    <td> 
+        <h4>Kinds of Tests: </h4>
+    <ul>
+    <li> Acceptance testing: Verifying whether the whole system works as intended. </li>
+    <li> Integration testing: Ensuring that software components or functions operate together. </li>
+    <li>Unit testing: Validating that each software unit performs as expected. A unit is the smallest testable component of an application.</li>
+    <li>Functional testing: Checking functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions. </li>
+    <li>Performance testing: Testing how the software performs under different workloads. Load testing, for example, is used to evaluate performance under real-life load conditions.</li>
+    <li>Regression testing: Checking whether new features break or degrade functionality. Sanity testing can be used to verify menus, functions and commands at the surface level, when there is no time for a full regression test. </li>
+    <li>Stress testing: Testing how much strain the system can take before it fails. Considered to be a type of non-functional testing. </li>
+    <li>Usability testing: Validating how well a customer can use a system or web application to complete task. </li>
+    </ul>
+</td>
+</tr>
+    <td>
+        <h4>Software testing is done to detect:</h4>
+        <ul>
+        <li> Architectural flaws </li>
+        <li> Poor design decisions </li>
+        <li> Invalid or incorrect functionality </li>
+        <li>Security vulnerabilities</li>
+        <li>Scalability issues</li>
+        </ul>
+</tr>
+<td>
+    <h4>Testing best practices:</h4>
+    <ul>
+    <li> Continous testing: Project teams test each build as it becomes available. This type of software testing relies on test automation that is integrated with the deployment process. It enables software to be validated in realistic test environments earlier in the process -- improving design and reducing risks. </li>
+    <li> Configuraton management: Organizations centrally maintain test assets and track what software builds to test. Teams gain access to assets such as code, requirements, design documents, models, test scripts and test results. Good systems include user authentication and audit trails to help teams meet compliance requirements with minimal administrative effort. </li>
+    <li> Service virtualization: Testing environments may not be available, especially early in code developmenet. Service virtualization simulates the services and systems that are missing or not yet completed, enabling teams to reduce dependencies and test sooner. They can reuse, deploy and change a configuration to test different scenarios without having to modify the original environment.</li>
+    <li> Defect or "bug tracking": Monitoring defects is important to both testing and development teams for measuring and improving quality. Automated tools allow teams to track defects, measure their scope and impact, and uncover related issues.</li>
+    <li>Metrics and reporting: Reporting and analytics enable team members to share status, goals and test results. Advanced tools integrate project metrics and present results in a dashboard. Teams quickly see the overall health of a project and can monitor relationships between test, development and other project elements.</li>
+    </ul>
+</table>
+</li>
+
